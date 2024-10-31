@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "https://s2-receitas.glbimg.com"
+        hostname: "s2-receitas.glbimg.com"
       }
     ]
   }
