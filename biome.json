@@ -1,8 +1,7 @@
 {
 	"formatter": {
 		"enabled": true,
-		"indentStyle": "tab",
-		"lineWidth": 120
+		"indentStyle": "tab"
 	},
 	"organizeImports": {
 		"enabled": true
@@ -15,7 +14,8 @@
 	},
 	"javascript": {
 		"formatter": {
-			"quoteStyle": "double"
+			"quoteStyle": "double",
+			"lineWidth": 120
 		}
 	}
 }
