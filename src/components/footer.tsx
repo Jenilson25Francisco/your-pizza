@@ -8,7 +8,7 @@ export const Footer = () => {
                     zanguetsuinc &copy; {new Date().getFullYear()} todos os direitos reservados
                 </p>
                 <div className="flex items-center">
-                    <p className="flex gap-2 font-semibold text-center text-zinc-700">
+                    <p className="flex gap-2 font-semibold text-sm text-center text-zinc-700 md:text-md">
                         Desenvolvido com <IconHeartFilled className="text-red-600" /> por Jenilson Francisco
                     </p>
                 </div>
