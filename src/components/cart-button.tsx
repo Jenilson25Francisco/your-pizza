@@ -1,7 +1,11 @@
 import { IconShoppingCartCopy } from "@tabler/icons-react"
 import Link from "next/link"
 
-export const CartButton = () => {
+type CartButtonProps = {
+    itemCount: number
+}
+
+export const CartButton = ({ itemCount }: CartButtonProps) => {
     return (
         <Link href="/cart">
             <div className="mt-8 fixed z-40 top-0 p-3 bg-transparent">
@@ -10,7 +14,7 @@ export const CartButton = () => {
                     <div
                         className="flex items-center justify-center border-stone-400  bg-slate-500 border-2 text-zinc-50 -ml-2 mb-2 w-7 h-7 rounded-full"
                     >
-                        0
+                        {itemCount}
                     </div>
                 </div>
             </div>
